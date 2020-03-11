@@ -10,7 +10,7 @@ import numpy as np
 from data_with_notebook.scripts.util_mnist_reader import load_mnist
 import tensorflow as tf
 
-PATH = "data_with_notebook/data/fashion"     # Data Path
+PATH = "../data"        # Data Path
       
 '''
 Multilayers Neural Network with Keras

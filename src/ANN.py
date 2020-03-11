@@ -7,9 +7,9 @@ Created on Mon Oct 14 04:56:25 2019
 """
 
 import numpy as np
-from data_with_notebook.scripts.util_mnist_reader import load_mnist
+from Data_Reader import load_mnist
 
-PATH = "data_with_notebook/data/fashion"     # Data Path
+PATH = "../data"        # Data Path
 
 '''
 Artifitial Neural Network

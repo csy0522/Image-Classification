@@ -7,11 +7,11 @@ Created on Fri Oct 18 06:11:07 2019
 """
 
 import numpy as np
-from data_with_notebook.scripts.util_mnist_reader import load_mnist
+from Dat.util_mnist_reader import load_mnist
 import tensorflow as tf
 from functools import partial
 
-PATH = "data_with_notebook/data/fashion"     # Data Path
+PATH = "../data"        # Data Path
 
 '''
 Convolutional Neural Network with Keras
