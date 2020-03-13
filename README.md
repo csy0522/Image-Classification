@@ -32,7 +32,7 @@ This project classifies images using three different models, which are:<br/>
 The data consists of 70,000 images of clothes and accessories; 48,000 are used for the training, 12,000 are used for validation, and the remaining 10,000 are used for testing.
 Ths following is the output from the Multi Hidden Layer Neural Network with random hyperparameters indicated on top of the graph: 
 
-![Multi Hidden Layer Neural Network](../data/MLANN_Output.png)
+![Multi Hidden Layer Neural Network](/data/MLANN_Output.png)
 
 the graph represents the training progress; the x axis is the number of epochs, and the y axis is the accuracy of prediction. The tested result is shoed beflow the graph.<br/>
 
