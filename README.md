@@ -29,12 +29,12 @@ This project classifies images using three different models, which are:<br/>
 2. Multi Hidden Layer Neural Network<br/>
 3. Convolutional Neural Network<br/>
 
-The data consists of 70,000 images of clothes and accessories; 48,000 are used for the training, 12,000 are used for validation, and the remaining 10,000 are used for testing.
+The data consists of **70,000** images of clothes and accessories; **48,000** are used for the training, **12,000** are used for validation, and the remaining **10,000** are used for testing.
 Ths following is the output from the Multi Hidden Layer Neural Network with random hyperparameters indicated on top of the graph: 
 
 ![Multi Hidden Layer Neural Network](/data/MLANN_Progress.png)
 
-the graph represents the training progress; the x axis is the number of epochs, and the y axis is the accuracy of prediction. The tested result is shoed beflow the graph.<br/>
+The graph represents the training progress; the x axis is the number of epochs, and the y axis is the accuracy of prediction. The hidden layer consists of **500, 300, and 100** parameters, batch size is **600**, and the accuracy was **0.8878**.<br/>
 
 For more details, go to **main.ipynb** and test run the all three models using various hyperparameters.
 
