@@ -13,7 +13,7 @@ Use any python IDE to open the project. I personally use Spyder from Anaconda.Yo
 Before running the program, type the following command to install the libraries that the project depends on
 
 ```
-pip install numpy, pandas, matplotlib, sklearn, tensorflow
+pip install numpy, matplotlib, tensorflow
 ```
 Or simply type the following:
 
@@ -23,15 +23,23 @@ pip install -r requirements.txt
 
 ## Running the tests
 
-The description of each function is located on top of them. Please read them before running for clarity.
+The description of each function is located on top of them. Please read them before running for clarity.<br/>
+This project classifies images using three different models, which are:<br/>
+1. Single Hidden Layer Neural Network<br/>
+2. Multi Hidden Layer Neural Network<br/>
+3. Convolutional Neural Network<br/>
 
-To be continued ...
+The data consists of 70,000 images of clothes and accessories; 60,000 are used for the training, and the remaining 10,000 are used for testing.
+Ths following is the output from the Multi Hidden Layer Neural Network
 
+the graph represents the training progress; the x axis is the number of epochs, and the y axis is the accuracy of prediction. The tested result is shoed beflow the graph.<br/>
 
+For more details, go to **main.ipynb** and test run the all three models using various hyperparameters.
 
 ## Deployment
 
-Download any stock price charts from online (Ex: Kaggle) and insert the data to the model in order to test its accuracy.
+Instead of fashion dataset from mnist, you can also use different dataset from online to test the usability of the models.<br/>
+Download any image dataset for classification from online (Ex: Kaggle) and insert the data to the model in order to test its accuracy.
 * [Kaggle](https://www.kaggle.com/) - The Machine Learning and Data Science Community
 
 ## Built With
